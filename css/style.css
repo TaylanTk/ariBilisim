@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.bg-acikMavi, .btn-acikMavi{background-color: #b1d4fe;}
+.btn-acikMavi:hover{background-color: #9fcafd;}
+.btn-outline-acikMavi{border:1px solid #b1d4fe;}
+.btn-outline-acikMavi:hover{background-color: #b1d4fe;}
+
+a{text-decoration: none !important;}
+#topFooter a, #blogList a, #article a{color:#393939;}
+#topFooter .bi, #blogList .bi, #article .bi{font-size:24px;}
+#services h2{
+    font-weight: 300;
+    font-size:27px;
+}
+.slogan{font-size:40px;}
+#cta .btn{font-size: 20px;}
+.py-20{padding:200px 0px !important;}
+#aboutus{
+    background-image: url('../img/ari-bilisim-hakkimizda-banner-1200x648.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projeler img:hover{cursor:pointer;}
+
+#web{background-image: url('../img/web-tasarim-hizmeti-1920x540.webp');}
+#grafik{background-image: url('../img/grafik-tasarim-hizmeti-1920x540.webp');}
+#dijital{background-image: url('../img/dijital-pazarlama-hizmeti-1920x540.webp');}
+#blog, #makale, #iletisim{background-color: #deb887;}
+
+
+.bannerSet{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:140px 0px;
+    color:#fff;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    #topHeader .col-md-6, #bottomFooter .col-md-6{text-align: center !important;}
+    #mainBanner .text-center{display: none;}
+    #mainBanner{text-align: center;}
+    .box{margin: 20px 0px;}
+    #blog img{width: 100%;}
+    #aboutus .display-1{font-size: 3rem;}
+    .boxCenter{text-align: center !important;}
+    .boxIki{margin: 20px 0px 0px 0px;}
+    .iletisimFonts{font-weight:200;}
+    #cta .slogan{font-size: 1.5rem;}
+}
+
+/* @media(min-width:769px){
+    yeniden düzenleyip yazmak gerekir.
+} */
+
+/* @media(min-width:1080px){
+    yeniden düzenleyip yazmak gerek
+} */
+
+
+
+/* class veya id ismi:nth-child(2) --> 2. dive müdahale et */
